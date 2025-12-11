@@ -78,5 +78,6 @@ media_ponderada = soma_produtos / soma_pesos
 print(f"Calculo da média ponderada")
 print(f"A soma dos produtos (Valor x Peso): {soma_produtos}")
 print(f"Soma total dos pesos: {soma_pesos}")
-print(f"A média ponderada é de: {media_ponderada}:.2f")
+print(f"A média ponderada é de: {media_ponderada:.2f}")
+
 
