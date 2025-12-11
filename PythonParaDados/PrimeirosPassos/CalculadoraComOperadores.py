@@ -59,4 +59,24 @@ valor3 = float(input("Digite a terceira nota desejado: "))
 print (f"A média das notas {valor1} + {valor2} + {valor3} = {(valor1 + valor2 + valor3) / 3}")
 
 #10
+nota1 = 5
+peso1 = 1
+
+nota2 = 12
+peso2 = 2
+
+nota3 = 20
+peso3 = 3
+
+nota4 = 15
+peso4 = 4
+
+soma_produtos = (nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3) + (nota4 * peso4)
+soma_pesos = peso1 + peso2 + peso3 + peso4
+media_ponderada = soma_produtos / soma_pesos
+
+print(f"Calculo da média ponderada")
+print(f"A soma dos produtos (Valor x Peso): {soma_produtos}")
+print(f"Soma total dos pesos: {soma_pesos}")
+print(f"A média ponderada é de: {media_ponderada}:.2f")
 
